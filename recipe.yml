@@ -18,13 +18,15 @@ modules:
   type: includes
   includes:
     - modules/160-utilities
+    - modules/161-hosts-updater
     - modules/180-vscode-install
     - modules/190-sf-font-download
 
-- name: update hosts
-  type: shell
-  commands:
-    - curl -L https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts -o /etc/hosts
+# Currently fails, "Error: Filesystem is read-only"
+#- name: update hosts
+#  type: shell
+#  commands:
+#    - curl -L https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts -o /etc/hosts
 
 # Put your custom actions before this comment
 

@@ -1,0 +1,5 @@
+name: hosts-updater
+type: shell
+commands:
+  - echo "echo 'Updating /etc/hosts file'" > /usr/local/bin/update-hosts
+  - echo "host-shell pkexec curl -L https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts -o /etc/hosts" >> /usr/local/bin/update-hosts
