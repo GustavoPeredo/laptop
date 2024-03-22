@@ -1,5 +1,4 @@
 name: stephen-hosts
 type: shell
-source:
-  commands:
+commands:
   - curl -L https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts -o /etc/hosts
