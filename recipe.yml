@@ -14,22 +14,13 @@ modules:
   - apt-get update
 
 # Put your custom actions behind this comment
-
-- name: example-packages
-  type: apt
-  source:
-    packages:
-    - vim
-
-- name: example-commands
-  type: shell
-  commands:
-  - echo Example output
-
-- name: example-modules
+- name: modules
   type: includes
   includes:
-    - modules/50-install-debs
+    - modules/160-utilities
+    - modules/180-vscode-install
+    - modules/190-sf-font-download
+    - modules/191-stephen-hosts
 
 # Put your custom actions before this comment
 

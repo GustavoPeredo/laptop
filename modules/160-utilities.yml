@@ -1,0 +1,18 @@
+name: utilities
+type: apt
+source:
+  packages:
+  # Podman stuff
+  - podman
+  - podman-compose
+
+  # System software
+  - chromium
+  - mpv
+  - kitty
+  - unar
+  - p7zip
+  - zathura
+  - zathura-pdf-poppler
+  - zathura-ps
+  - neovim

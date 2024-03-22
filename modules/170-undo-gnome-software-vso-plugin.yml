@@ -1,0 +1,5 @@
+name: gs-vso-plugin
+type: shell
+commands:
+  - rm -rf /usr/lib/x86_64-linux-gnu/gnome-software
+  - apt remove gnome-software gnome-software-plugin-flatpak -y
