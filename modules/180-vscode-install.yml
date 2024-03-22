@@ -2,6 +2,6 @@ name: vscode-install
 type: shell
 commands:
   - mkdir -p /tmp/
-  - curl -L curl -l https://update.code.visualstudio.com/latest/linux-deb-x64/stable -o /tmp/vscode.deb
+  - curl -L https://update.code.visualstudio.com/latest/linux-deb-x64/stable -o /tmp/vscode.deb
   - apt install /tmp/vscode.deb
   - rm /tmp/vscode.deb
