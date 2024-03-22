@@ -20,7 +20,11 @@ modules:
     - modules/160-utilities
     - modules/180-vscode-install
     - modules/190-sf-font-download
-    - modules/191-stephen-hosts
+
+- name: update hosts
+  type: shell
+  commands:
+    - curl -L https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts -o /etc/hosts
 
 # Put your custom actions before this comment
 
