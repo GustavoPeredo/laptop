@@ -1,6 +1,6 @@
 base: ghcr.io/vanilla-os/desktop:main
 name: Custom Vanilla Desktop
-id: vanilla-custom
+id: laptop
 labels:
   maintainer: self-maintained
 args:
