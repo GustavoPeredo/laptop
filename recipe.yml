@@ -17,10 +17,11 @@ modules:
 - name: modules
   type: includes
   includes:
-    - modules/160-utilities
-    - modules/161-hosts-updater
     - modules/180-vscode-install
     - modules/190-sf-font-download
+    - modules/162-guix
+    - modules/161-hosts-updater
+    - modules/160-utilities
 
 # Currently fails, "Error: Filesystem is read-only"
 #- name: update hosts
