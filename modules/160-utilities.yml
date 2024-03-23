@@ -17,3 +17,4 @@ source:
   - zathura-ps
   - neovim
   - direnv
+  - git
