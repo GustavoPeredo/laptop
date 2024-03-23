@@ -9,7 +9,7 @@ source:
   # System software
   - chromium
   - mpv
-  - kitty
+  - alacritty
   - unar
   - p7zip
   - zathura
