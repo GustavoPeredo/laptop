@@ -19,7 +19,8 @@ modules:
   includes:
     - modules/180-vscode-install
     - modules/190-sf-font-download
-    - modules/162-guix
+    - modules/162-install-guix
+    - modules/163-configure-guix
     - modules/161-hosts-updater
     - modules/160-utilities
 

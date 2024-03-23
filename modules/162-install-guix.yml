@@ -1,0 +1,5 @@
+name: Install guix
+type: apt
+source:
+  packages:
+  - guix

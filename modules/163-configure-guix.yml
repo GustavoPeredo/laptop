@@ -1,9 +1,3 @@
-name: Install guix
-type: apt
-source:
-  packages:
-  - guix
-
 name: Configure guix
 type: shell
 commands:
