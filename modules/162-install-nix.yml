@@ -2,4 +2,5 @@ name: Install guix
 type: apt
 source:
   packages:
-  - guix
+  - nix-bin
+  - nix-setup-systemd

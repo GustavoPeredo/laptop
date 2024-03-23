@@ -1,5 +1,0 @@
-name: Configure guix
-type: shell
-commands:
-  - guix archive --authorize < /usr/share/guix/ci.guix.gnu.org.pub
-  - systemctl enable guix-daemon.service
