@@ -16,3 +16,4 @@ source:
   - zathura-pdf-poppler
   - zathura-ps
   - neovim
+  - direnv
