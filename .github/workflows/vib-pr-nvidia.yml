@@ -1,4 +1,4 @@
-name: Vib NVIDIA PR
+name: Vib PR
 
 on:
   pull_request:
@@ -15,7 +15,7 @@ jobs:
 
     - uses: vanilla-os/vib-gh-action@v0.3.3-1
       with:
-        recipe: 'recipe.yml'
+        recipe: 'recipe-nvidia.yml'
         plugins: 'Vanilla-OS/vib-fsguard:v1.2-1'
 
     - name: Build the Docker image

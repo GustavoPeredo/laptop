@@ -1,4 +1,4 @@
-base: ghcr.io/vanilla-os/desktop:main
+base: ghcr.io/vanilla-os/nvidia:main
 name: Custom Vanilla Desktop
 id: laptop
 labels:
@@ -17,6 +17,8 @@ modules:
 - name: modules
   type: includes
   includes:
+    - modules/90-add-ctk-repo
+    - modules/91-install-ctk
     - modules/170-undo-gnome-software-vso-plugin
     - modules/180-vscode-install
     - modules/190-sf-font-download

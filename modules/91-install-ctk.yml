@@ -1,0 +1,5 @@
+name: install-ctk
+type: apt
+source:
+  packages:
+    - nvidia-container-toolkit
