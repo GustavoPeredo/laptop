@@ -1,6 +1,6 @@
 base: ghcr.io/vanilla-os/nvidia:main
 name: Custom Vanilla Desktop
-id: laptop
+id: tower
 labels:
   maintainer: self-maintained
 args:
